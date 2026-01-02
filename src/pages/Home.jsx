@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import academy from "../assets/images/academy building.webp"
 import trophies from "../assets/images/trophies.webp"
 import training from "../assets/images/training.webp"
@@ -48,9 +49,9 @@ function Home() {
               Train with the best to shape the next generation of footballers, where
               passion meets performance from grassroots to greatness.
             </p>
-            <button className="mt-8 bg-amber-500 hover:bg-amber-600 text-slate-900 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 transform hover:scale-105">
+            <Link to={"/contact-us"} className="mt-8 bg-amber-500 hover:bg-amber-600 text-slate-900 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 transform hover:scale-105">
               Start Your Journey
-            </button>
+            </Link>
           </div>
         </div>
       </section>
