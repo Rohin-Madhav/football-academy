@@ -1,6 +1,6 @@
 import React from 'react'
-import coach from "../assets/images/coach.png"
-import assistant from "../assets/images/assistantcoach.png"
+import coach from "../assets/images/coach.webp"
+import assistant from "../assets/images/assistantcoach.webp"
 
 function Staffs() {
   return (

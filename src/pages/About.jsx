@@ -1,8 +1,8 @@
 import React from 'react'
-import squad from "../assets/images/squad.png"
-import trophies2 from "../assets/images/trophies2.png"
-import teaching from "../assets/images/teaching.png"
-import teaching2 from "../assets/images/teaching2.png"
+import squad from "../assets/images/squad.webp"
+import trophies2 from "../assets/images/trophies2.webp"
+import teaching from "../assets/images/teaching.webp"
+import teaching2 from "../assets/images/teaching2.webp"
 
 function About() {
   return (

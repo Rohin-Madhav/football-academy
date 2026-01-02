@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import academy from "../assets/images/academy building.webp"
-import trophies from "../assets/images/trophies.png"
-import training from "../assets/images/training.png"
-import coaching from "../assets/images/coaching.png"
-import fecility1 from "../assets/images/fecility1.png"
-import fecility2 from "../assets/images/fecility2.png"
-import fecility3 from "../assets/images/fecility3.png"
-import fecility4 from "../assets/images/fecility4.jpg"
+import trophies from "../assets/images/trophies.webp"
+import training from "../assets/images/training.webp"
+import coaching from "../assets/images/coaching.webp"
+import fecility1 from "../assets/images/fecility1.webp"
+import fecility2 from "../assets/images/fecility2.webp"
+import fecility3 from "../assets/images/fecility3.webp"
+import fecility4 from "../assets/images/fecility4.webp"
 
 function Home() {
   const [currentSlide, setCurrentSlide] = useState(0)
