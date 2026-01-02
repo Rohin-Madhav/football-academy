@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import academy from "../assets/images/academy building.png"
+import academy from "../assets/images/academy building.webp"
 import trophies from "../assets/images/trophies.png"
 import training from "../assets/images/training.png"
 import coaching from "../assets/images/coaching.png"

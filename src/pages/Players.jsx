@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import player1 from "../assets/images/Players/player1.png"
-import player2 from "../assets/images/Players/player2.png"
-import player3 from "../assets/images/Players/player3.png"
-import player4 from "../assets/images/Players/player4.png"
-import player5 from "../assets/images/Players/player5.png"
-import player6 from "../assets/images/Players/player6.png"
-import player7 from "../assets/images/Players/player7.png"
-import player8 from "../assets/images/Players/player8.png"
-import player9 from "../assets/images/Players/player9.png"
-import player10 from "../assets/images/Players/player10.png"
+import player1 from "../assets/images/Players/player1.webp"
+import player2 from "../assets/images/Players/player2.webp"
+import player3 from "../assets/images/Players/player3.webp"
+import player4 from "../assets/images/Players/player4.webp"
+import player5 from "../assets/images/Players/player5.webp"
+import player6 from "../assets/images/Players/player6.webp"
+import player7 from "../assets/images/Players/player7.webp"
+import player8 from "../assets/images/Players/player8.webp"
+import player9 from "../assets/images/Players/player9.webp"
+import player10 from "../assets/images/Players/player10.webp"
 
 function Players() {
   const [selectedPlayer, setSelectedPlayer] = useState(null)
