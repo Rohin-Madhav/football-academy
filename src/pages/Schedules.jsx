@@ -227,21 +227,19 @@ function Schedules() {
         <div className="flex justify-center mb-8 space-x-4">
           <button
             onClick={() => setActiveTab('upcoming')}
-            className={`px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 ${
-              activeTab === 'upcoming'
+            className={`px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 ${activeTab === 'upcoming'
                 ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-lg'
                 : 'bg-white text-slate-700 hover:bg-slate-100'
-            }`}
+              }`}
           >
             Upcoming ({upcomingMatches.length})
           </button>
           <button
             onClick={() => setActiveTab('completed')}
-            className={`px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 ${
-              activeTab === 'completed'
+            className={`px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 ${activeTab === 'completed'
                 ? 'bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-lg'
                 : 'bg-white text-slate-700 hover:bg-slate-100'
-            }`}
+              }`}
           >
             Completed ({completedMatches.length})
           </button>
@@ -266,11 +264,10 @@ function Schedules() {
               </thead>
               <tbody className="divide-y divide-slate-200">
                 {displayedSchedules.map((s, index) => (
-                  <tr 
-                    key={s.id} 
-                    className={`hover:bg-amber-50 transition-colors duration-200 ${
-                      index % 2 === 0 ? 'bg-white' : 'bg-slate-50'
-                    }`}
+                  <tr
+                    key={s.id}
+                    className={`hover:bg-amber-50 transition-colors duration-200 ${index % 2 === 0 ? 'bg-white' : 'bg-slate-50'
+                      }`}
                   >
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center space-x-2">
@@ -308,11 +305,10 @@ function Schedules() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-center">
-                      <span className={`inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase ${
-                        s.status === 'Upcoming' 
-                          ? 'bg-green-100 text-green-700' 
+                      <span className={`inline-block px-4 py-1.5 rounded-full text-xs font-bold uppercase ${s.status === 'Upcoming'
+                          ? 'bg-green-100 text-green-700'
                           : 'bg-gray-100 text-gray-700'
-                      }`}>
+                        }`}>
                         {s.status}
                       </span>
                     </td>
@@ -320,13 +316,12 @@ function Schedules() {
                       <td className="px-6 py-4 text-center">
                         <div className="flex flex-col items-center space-y-1">
                           <span className="font-bold text-slate-900">{s.score}</span>
-                          <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold ${
-                            s.result === 'Win' 
-                              ? 'bg-green-100 text-green-700' 
+                          <span className={`inline-block px-3 py-1 rounded-full text-xs font-bold ${s.result === 'Win'
+                              ? 'bg-green-100 text-green-700'
                               : s.result === 'Loss'
-                              ? 'bg-red-100 text-red-700'
-                              : 'bg-yellow-100 text-yellow-700'
-                          }`}>
+                                ? 'bg-red-100 text-red-700'
+                                : 'bg-yellow-100 text-yellow-700'
+                            }`}>
                             {s.result}
                           </span>
                         </div>
